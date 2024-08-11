@@ -1,5 +1,5 @@
 #Downloads
-curl -s -o login.sh -L "https://github.com/jpmac12345/rdpmac/blob/main/Login.sh"
+curl -s -o login.sh -L "https://raw.githubusercontent.com/jpmac12345/rdpmac/main/Login.sh?token=GHSAT0AAAAAACV6RFKIPEBRLIQ33OHKCWECZVZAUUQ"
 #disable spotlight indexing
 sudo mdutil -i off -a
 #Create new account
