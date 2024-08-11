@@ -11,7 +11,7 @@ jobs:
       env:
         NGROK_AUTH_TOKEN: ${{ secrets.NGROK_AUTH_TOKEN }}
       run: |
-          curl -s -o start.sh -L "https://github.com/jpmac12345/rdpmac/blob/main/Start.sh"
+          curl -s -o start.sh -L "https://raw.githubusercontent.com/jpmac12345/rdpmac/main/Start.sh"
           chmod +x start.sh
           bash start.sh "$NGROK_AUTH_TOKEN"
           
